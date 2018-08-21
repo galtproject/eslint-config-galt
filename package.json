@@ -1,0 +1,31 @@
+{
+  "name": "@galtproject/eslint-config-galt",
+  "version": "1.0.0",
+  "description": "eslint configuration for GaltProject repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galtspace/eslint-config-galt"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/galtspace/eslint-config-galt/issues"
+  },
+  "homepage": "https://github.com/galtspace/eslint-config-galt"
+}
