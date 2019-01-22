@@ -4,13 +4,12 @@ module.exports = {
     'eslint-config-airbnb-base/rules/strict',
     'prettier',
   ],
-  parser: 'babel-eslint',
   env: {
-    es6: true,
+    es6: false,
     commonjs: true,
   },
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 5,
     sourceType: 'module'
   },
   plugins: ['prettier'],
