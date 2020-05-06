@@ -16,6 +16,7 @@ module.exports = {
   rules: {
     'eqeqeq': [2, 'smart'],
     'max-len': [2, { code: 80, ignoreComments: true }],
+    'object-curly-spacing': ['error', 'always'],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
     'no-use-before-define': ['error', { functions: false, 'classes': true }],
     'no-warning-comments': ['error', { terms: ['fixme'], location: 'start' }],
