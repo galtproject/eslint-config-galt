@@ -25,6 +25,8 @@ module.exports = {
       'error',
       {
         'singleQuote': true,
+        'bracketSpacing': true,
+        'trailingComma': 'es5',
         'printWidth': 120
       },
     ],
